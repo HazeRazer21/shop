@@ -24,8 +24,8 @@ stripe.api_key = os.getenv("API_KEY")
 # db = SQLAlchemy(app)
 db = SQLAlchemy(
     user="irvan", 
-    password="Irvan123", h
-    ost="elwatch.mysql.database.azure.com", 
+    password="Irvan123", 
+    host="elwatch.mysql.database.azure.com", 
     port=3306, 
     database="shop", 
 )
