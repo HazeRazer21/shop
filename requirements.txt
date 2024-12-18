@@ -1,0 +1,8 @@
+Flask
+Bootstrap-Flask
+Flask_Login
+flask_sqlalchemy
+Flask_WTF
+stripe
+Werkzeug
+WTForms
