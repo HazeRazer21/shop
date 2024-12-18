@@ -16,7 +16,7 @@ app.config['SECRET_KEY'] = 'sk_test_51QXDtAGEfZfk25XReh6Dp7sVacwW5pDewcUsv40qn2B
 bootstrap = Bootstrap(app)
 
 # config stripe
-stripe.api_key = os.getenv("API_KEY")
+stripe.api_key = 'pk_test_51QXDtAGEfZfk25XR2ROozfIquKFNXvwJ8onrHJzb5REE7vsjb26b0a3M3JE5Q0o3DyLv6cxHhbcx7VheioUbT9L000bSYDS3Ee'
 
 # config db
 # app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///shop.db'
