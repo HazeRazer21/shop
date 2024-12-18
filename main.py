@@ -19,9 +19,17 @@ bootstrap = Bootstrap(app)
 stripe.api_key = os.getenv("API_KEY")
 
 # config db
-app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///shop.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+# app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///shop.db'
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# db = SQLAlchemy(app)
+db = SQLAlchemy(
+    user="irvan", 
+    password="Irvan123", h
+    ost="elwatch.mysql.database.azure.com", 
+    port=3306, 
+    database="shop", 
+)
+
 
 # config login
 login_manager = LoginManager()
